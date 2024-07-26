@@ -1,0 +1,201 @@
+/* Estilização geral */
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    line-height: 1.6;
+    color: #fff;
+    background-color: #f4f4f4;
+}
+
+/* Estilização do título principal */
+h1 {
+    text-align: center;
+    color: #067c23;
+    margin-top: 100px;
+}
+
+/* Estilização da barra de navegação */
+.navegacao {
+    background-color: #067c23;
+    padding: 5px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.navegacao ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.navegacao li {
+    margin: 0 10px;
+}
+
+.navegacao a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    transition: background 0.3s ease, color 0.3s ease;
+}
+
+.navegacao a:hover {
+    background-color: #fff;
+    color:#000;
+    border-radius: 5px;
+}
+
+/* Estilização das seções */
+section {
+    padding: 10px;
+    margin: 10px 0px; /* Ajuste para a barra de navegação fixa */
+    background-color: #8a0c0c;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px #067c23;
+}
+
+/* Seção de introdução */
+.introducao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.introducao p {
+    margin-bottom: 20px;
+    font-size: 1.2em;
+    color: #fff;
+}
+
+.introducao img {
+    max-width: 50%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Seção de novidades */
+.novidadade {
+    background-color: #067c23;
+    color: #ffffff;
+    text-align: center;
+}
+
+.novidadade p {
+    font-size: 1.3em;
+}
+
+/* Seção de produtos */
+.produtos {
+    background-color: #067c23;
+    color: #fff;
+    text-align: center;
+}
+
+.produtos p {
+    font-size: 1.3em;
+}
+
+/* Seção de missão */
+#missao {
+    background-color: #fefefe;
+}
+
+#missao h2 {
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+#missao p {
+    font-size: 1em;
+    color: #fff;
+}
+
+/* Seção de visão */
+#visao {
+    background-color: #fefefe;
+}
+
+#visao h2 {
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+#visao p {
+    font-size: 1em;
+    color: #fff;
+}
+
+/* Seção de valores */
+#valores {
+    background-color: #fff3e0;
+}
+
+#valores h2 {
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+#valores ol {
+    margin-left: 20px;
+}
+
+#valores li {
+    font-weight: bold;
+    color: #fff;
+    margin-top: 10px;
+}
+
+#valores p {
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+#membro1 p {
+    color: #fff;
+    margin: 0%;
+}
+
+/* Rodapé de contatos */
+.contatos {
+    background-color: #067c23;
+    color: #fff;
+    text-align: center;
+}
+
+.contatos p {
+    font-size: 1.2em;
+}
+
+.contatos a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contatos a:hover {
+    text-decoration: underline;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .navegacao ul {
+        flex-direction: column;
+    }
+
+    .navegacao li {
+        margin: 5px 0;
+    }
+
+    section {
+        margin: 60px 10px 20px 10px; /* Ajuste para a barra de navegação fixa */
+    }
+}
