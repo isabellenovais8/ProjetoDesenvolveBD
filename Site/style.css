@@ -7,22 +7,13 @@ html {
 }
 
 body {
-    line-height: 1.6;
-    color: #fff;
-    background-color: #f4f4f4;
-}
-
-/* Estilização do título principal */
-h1 {
-    text-align: center;
-    color: #067c23;
-    margin-top: 100px;
+    line-height: 1.4;
+    color: #000;
 }
 
 /* Estilização da barra de navegação */
 .navegacao {
-    background-color: #067c23;
-    padding: 5px 0;
+    background-color: #9c0808;
     position: fixed;
     width: 100%;
     top: 0;
@@ -56,127 +47,449 @@ h1 {
 /* Estilização das seções */
 section {
     padding: 10px;
-    margin: 10px 0px; /* Ajuste para a barra de navegação fixa */
-    background-color: #8a0c0c;
+    margin: 3%; /* Ajuste para a barra de navegação fixa */
     border-radius: 8px;
-    box-shadow: 0 2px 4px #067c23;
+    box-shadow: 0 2px 4px #fff;
 }
 
-/* Seção de introdução */
+/* Seção de introdução - index */
 .introducao {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
+    
 }
 
 .introducao p {
-    margin-bottom: 20px;
-    font-size: 1.2em;
-    color: #fff;
+    font-size: 1.5em;
+    color: #000;
+    font-style: oblique;
 }
 
 .introducao img {
-    max-width: 50%;
-    height: auto;
-    border-radius: 8px;
+    width: 700px;
+    height: 300px;
+    border-radius: 5px;
+}
+
+.introducao h2 {
+    font-style: italic;
+    color: #2f411b;
+}
+
+.introducao video{
+    margin-top: 10px;
+    border: solid 3px #9c0808;
+         
 }
 
 /* Seção de novidades */
-.novidadade {
-    background-color: #067c23;
-    color: #ffffff;
+.novidade {
+    background-color:#9c0808;
+    color: #fff;
     text-align: center;
+    height: 50px;
+    margin-right: 50px;
+      
 }
 
-.novidadade p {
-    font-size: 1.3em;
+.novidade p {
+    font-size: 1.5em;
+}
+
+/* Seção Sobre Nós*/
+.sobre_nos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border:  dashed 3px #2f411b;
+    margin-top: 7%;
+    padding: 1%;
+}
+
+.sobre_nos h2 {
+    font-style: italic;
+    color: #2f411b;
+}
+
+.sobre_nos p {
+    font-size: 1.2em;
+    color: #000;
+    font-style: oblique;
+}
+
+/* Seção de missão */
+.missao {
+    border: solid 3px #9c0808;
+}
+
+.missao h2 {
+    color: #2f411b;
+}
+
+.missao p {
+    font-size: 1em;
+    color: #000;
+}
+
+/* Seção de visão */
+.visao {
+    border: solid 3px #9c0808;
+}
+
+.visao h2 {
+    color: #2f411b;
+}
+
+.visao p {
+    font-size: 1em;
+    color: #000;
+}
+
+/* Seção de valores */
+.valores {
+    border: solid 3px #9c0808;
+}
+
+.valores h2 {
+    color: #2f411b;
+}
+
+.valores ol {
+    color:#000;
+    margin-left: 20px;
+}
+
+.valores li {
+    font-weight: bold;
+    color: #9c0808;
+    margin-top: 10px;
+}
+
+.valores p {
+    color: #000;
+}
+
+/*bootstrap home*/
+.img1{
+    height: 300px;
+    width: 700px;
+    margin-left: 22%;
+    margin-top: 3%;
+        
 }
 
 /* Seção de produtos */
 .produtos {
-    background-color: #067c23;
+    background-color:#9c0808;
     color: #fff;
     text-align: center;
+    height: 50px;
+    margin-right: 50px;
 }
 
 .produtos p {
     font-size: 1.3em;
 }
 
-/* Seção de missão */
-#missao {
-    background-color: #fefefe;
+/*Seção Promoção*/
+.int_promocao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
 }
 
-#missao h2 {
+.int_promocao p {
+    font-size: 1.5em;
+    color: #2f411b;
+    font-style: oblique;
+}
+
+/*Seção Catálogo*/
+.int_catalogo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.int_catalogo p {
+    font-size: 1.5em;
+    color: #2f411b;
+    font-style: oblique;
+}
+
+/* Seção Catálogo e Promoções */
+.img{
+    transition: all 0.5s linear;
+}
+
+#promocoes_catalogo{
+    display: flex;
+}
+
+.card1{
+    display: flex;
+    border: 2px solid #9c0808;
+    justify-content: space-around;
+    flex-wrap: wrap;    
+    transition: all 1s linear;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}  
+
+.card2{
+    display: flex;
+    border: 2px solid #9c0808;
+    justify-content: space-around;
+    flex-wrap: wrap;    
+    transition: all 1s linear;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.card3{
+    display: flex;
+    border: 2px solid #9c0808;
+    justify-content: space-around;
+    flex-wrap: wrap;    
+    transition: all 1s linear;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.card4{
+    display: flex;
+    border: 2px solid #9c0808;
+    justify-content: space-around;
+    flex-wrap: wrap;    
+    transition: all 1s linear;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.card5{
+    display: flex;
+    border: 2px solid #9c0808;
+    justify-content: space-around;
+    flex-wrap: wrap;    
+    transition: all 1s linear;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.card6{
+    display: flex;
+    border: 2px solid #9c0808;
+    justify-content: space-around;
+    flex-wrap: wrap;    
+    transition: all 1s linear;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.card7{
+    display: flex;
+    border: 2px solid #9c0808;
+    justify-content: space-around;
+    flex-wrap: wrap;    
+    transition: all 1s linear;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.card8{
+    display: flex;
+    border: 2px solid #9c0808;
+    justify-content: space-around;
+    flex-wrap: wrap;    
+    transition: all 1s linear;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.card9{
+    display: flex;
+    border: 2px solid #9c0808;
+    justify-content: space-around;
+    flex-wrap: wrap;    
+    transition: all 1s linear;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.card1 img:hover{
+    scale: 1.03;
+    border-radius: 8px;
+    transition: background 0.3s ease, color 0.3s ease;
+    border: 3px solid rgb(2, 53, 2);
+}
+
+.card2 img:hover{
+    scale: 1.03;
+    border-radius: 8px;
+    transition: background 0.3s ease, color 0.3s ease;
+    border: 3px solid rgb(2, 53, 2);
+}
+
+.card3 img:hover{
+    scale: 1.03;
+    border-radius: 8px;
+    transition: background 0.3s ease, color 0.3s ease;
+    border: 3px solid rgb(2, 53, 2);
+}
+
+.card4 img:hover{
+    scale: 1.03;
+    border-radius: 8px;
+    transition: background 0.3s ease, color 0.3s ease;
+    border: 3px solid rgb(2, 53, 2);
+}      
+
+.card5 img:hover{
+    scale: 1.03;
+    border-radius: 8px;
+    transition: background 0.3s ease, color 0.3s ease;
+    border: 3px solid rgb(2, 53, 2);
+}      
+
+.card6 img:hover{
+    scale: 1.03;
+    border-radius: 8px;
+    transition: background 0.3s ease, color 0.3s ease;
+    border: 3px solid rgb(2, 53, 2);
+}      
+
+.card7 img:hover{
+    scale: 1.03;
+    border-radius: 8px;
+    transition: background 0.3s ease, color 0.3s ease;
+    border: 3px solid rgb(2, 53, 2);
+}      
+
+.card8 img:hover{
+    scale: 1.03;
+    border-radius: 8px;
+    transition: background 0.3s ease, color 0.3s ease;
+    border: 3px solid rgb(2, 53, 2);
+}      
+
+.card9 img:hover{
+    scale: 1.03;
+    border-radius: 8px;
+    transition: background 0.3s ease, color 0.3s ease;
+    border: 3px solid rgb(2, 53, 2);
+}            
+
+.span{
+    text-align: center;
+    font-style: bold;
+    background-color: #9c0808;
     color: #fff;
-    margin-bottom: 15px;
+    text-decoration: none;
 }
 
-#missao p {
+.span a{
+    color: #fff;
+}
+
+.span a:hover{
+    text-decoration: none;
+    background-color: #fff;
+    color:#000;
+    border-radius: 5px;
+}
+
+.img12{
+    height: 300px;
+    width: 700px;
+    margin-left: 22%;        
+}
+
+/*Página Contatos*/
+.introducao1 p {
+    font-size: 1.4em;
+    color: #000;
+    font-style: italic;
+    text-align: center;
+}
+
+.entre_contato {
+    color: #000;
+    text-align: center;
     font-size: 1em;
-    color: #fff;
+    font-weight: 800;
 }
 
-/* Seção de visão */
-#visao {
-    background-color: #fefefe;
+.entre_contato h3 {
+    color: #2f411b;
 }
 
-#visao h2 {
-    color: #fff;
-    margin-bottom: 15px;
-}
-
-#visao p {
-    font-size: 1em;
-    color: #fff;
-}
-
-/* Seção de valores */
-#valores {
-    background-color: #fff3e0;
-}
-
-#valores h2 {
-    color: #fff;
-    margin-bottom: 15px;
-}
-
-#valores ol {
-    margin-left: 20px;
-}
-
-#valores li {
+.entre_contato a {
+    color: #000;
+    text-decoration: none;
     font-weight: bold;
-    color: #fff;
-    margin-top: 10px;
 }
 
-#valores p {
-    color: #fff;
-    margin-bottom: 10px;
+.entre_contato a:hover {
+    text-decoration: underline;
 }
 
-#membro1 p {
-    color: #fff;
-    margin: 0%;
+.mapa iframe{
+    width: 95%;
+    height: 300px;
+    margin: 2%;
+}
+
+/*Página Equipe*/
+.nossa_equipe p {
+    font-size: 1.3em;
+    color: #2f411b;
+    font-style: oblique;
+    text-align: center;
+}
+
+#equipe{
+    display: flex;
+}
+
+.equipe{
+    display: flex;
+    border: 2px solid #9c0808;
+    justify-content: space-around;
+    flex-wrap: wrap;    
+    transition: all 1s linear;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.img_equipe{
+    width:300px;
+    height:350px;
 }
 
 /* Rodapé de contatos */
 .contatos {
-    background-color: #067c23;
-    color: #fff;
+    color: #000;
     text-align: center;
+    margin-top: 1%;
+    border-top: #9c0808 solid 8px ;
+    padding-top: 1%;
+    background-image: url(./rodape.png);
+    background-size: cover;
+    opacity: 0.8;
 }
 
 .contatos p {
-    font-size: 1.2em;
+    font-size: 1em;
+    font-weight: 800;
 }
 
 .contatos a {
-    color: #fff;
+    color: #000;
     text-decoration: none;
     font-weight: bold;
 }

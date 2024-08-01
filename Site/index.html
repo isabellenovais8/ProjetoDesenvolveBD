@@ -6,51 +6,97 @@
 - Apresentar a equipe por trás do negócio  -->
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
-    <title>Embalabom Embalagens</title>
+
+  <title>Embalabom Embalagens</title>
 </head>
 
 <body>
-    <!-- Navegação principal -->
-    <nav class="navegacao">
-        <ul>
-            <li><a class="nav_home" href="index.html">Home</a></li>
-            <li><a class="nav_home" href="sobre_nos.html">Sobre Nós</a></li>
-            <li><a class="nav_home" href="promocoes.html">Promoções</a></li>
-            <li><a class="nav_home" href="catalogo.html">Catálogo</a></li>
-            <li><a class="nav_home" href="equipe.html">Nossa Equipe</a></li>
-            <li><a class="nav_home" href="contatos.html">Contatos</a></li>
-        </ul>
-    </nav>
 
-    <h1>EMBALABOM EMBALAGENS</h1>
+  <!-- Navegação principal -->
+  <nav class="navegacao">
+    <ul>
+      <li><a class="nav_home" href="index.html">Home</a></li>
+      <li><a class="nav_home" href="sobre_nos.html">Sobre Nós</a></li>
+      <li><a class="nav_home" href="promocoes.html">Promoções</a></li>
+      <li><a class="nav_home" href="catalogo.html">Catálogo</a></li>
+      <li><a class="nav_home" href="equipe.html">Nossa Equipe</a></li>
+      <li><a class="nav_home" href="contatos.html">Contatos</a></li>
+    </ul>
+  </nav>
 
-    <!-- Seção principal -->
-    <section class="introducao">
-        <P>A EMBALABOM procura fornecer embalagens da melhor qualidade e com os melhores preços, com a maior
-            prestabilidade da região!</P>
-        <img src="./logo.jpg">
-    </section>
+  <!-- Seção principal -->
+  <section class="introducao">
+    <img src="./logo_atualizada.png">
+    <P>Encontre as embalagens com melhor preço e qualidade da região!</p>
+    <video src="./video/video sem logo.mp4" width="65%" autoplay muted></video>
+  </section>
 
-    <!-- Seção novidades -->
-    <section class="novidadade">
-        <p>Aqui você encontrará novidades todos os dias.</p>
-    </section>
 
+  <!-- Seção novidades -->
+  <section class="novidade">
+    <p>Aqui você encontrará novidades todos os dias.</p>
+  </section>
+
+  <!-- BOOTSTRAP CAROUSEL -->
+  <section>
+
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="img1" src="img_catalogo/cat boot1.jpg" alt="Primeiro Slide">
+
+        </div>
+        <div class="carousel-item">
+          <img class="img1" src="img_catalogo/cat boot5.jpg" alt="Segundo Slide">
+
+        </div>
+        <div class="carousel-item">
+          <img class="img1" src="img_catalogo/cat boot3.jpg" alt="Terceiro Slide">
+
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Anterior</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Próximo</span>
+      </a>
+    </div>
+    </div>
+  </section>
+
+  <!-- BOOTSTRAP SCRIPT JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
 </body>
+
 
 <!-- Rodapé da página -->
 <footer class="contatos">
-    <p>Entre em contato conosco:</p>
-    <p>Telefone: (37) 9.9828-0603</p>
-    <p>Facebook: <a href="https://www.facebook.com/EMBALABOM/">Embalabom Embalagens</a></p>
-    <p>Instagram: <a href="https://www.instagram.com/embalabom/?igsh=aG5xbG1qc2FhbWww">Embalabom Embalagens</a></p>
+  <p>Entre em contato conosco:</p>
+  <p><img src="whatsapp.jpg" width="25"><a href="wa.me/+5537998280603"> (37) 9.9828-0603</a></p>
+  <p><img src="facebook.png" width="20"><a href="https://www.facebook.com/EMBALABOM/"> Embalabom Embalagens</a></p>
+  <p><img src="instagram.jpg" width="25"><a href="https://www.instagram.com/embalabom/?igsh=aG5xbG1qc2FhbWww">
+      @embalabom</a></p>
+  <p><img src="email.jpg" width="20"><a href=""> vendastiagocosta@hotmail.com</a></p>
 </footer>
 
 </html>
